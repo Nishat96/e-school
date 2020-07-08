@@ -1,5 +1,16 @@
+@media (max-width: 700px){
 body{
     font-family: 'Poppins', sans-serif;
+}
+}
+@media (min-width: 1200px) {
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+}
+.bg-light{
+    background-color: #ffc107!important;
 }
 .navbar-brand img{
     height: 50px;
@@ -12,19 +23,17 @@ body{
     color: white;
     border: none;
 }
+ 
 .container{
     margin-bottom: 60px;
 
+
 }
-.container-header{
-    width: 1200px;
-    padding-right: 13px;
-    padding-left: 76px;
+
+    .container{
+        margin-bottom: 60px;
     
-   
-}
-.navbar {
-    background-color: #258325!important; 
+
 }
 .second-area{
     display: flex;
@@ -47,11 +56,16 @@ body{
     width: 100%;
 
 }
+@media (min-width: 1200px) {
+    .container{
+        flex-direction: column;
+    }
 .third-area{
     width: 100%;
     display: flex;
     justify-content: space-evenly;
    
+}
 }
 .third-area-img{
     width: 200px;
@@ -140,6 +154,8 @@ h3{
     right: 12px;
     color: #585859;
 }
+
+
 .fourth-section{
     width: 60%;
     position: relative;
@@ -163,6 +179,8 @@ h3{
 footer{
     background-color: #282531;
     height: 300px;
+    flex-direction: column;
+
 }
 .white-highlight{
     color: white;
@@ -174,6 +192,7 @@ footer p{
     position: relative;
     bottom: 100px;
 }
+
 .footer-info{
     display: flex;
     align-items: flex-end;
@@ -181,6 +200,7 @@ footer p{
     margin-left: 50px;
     margin-right: 50px;
 }
+
 .course, .terms , .useful-link{
     margin-top: 25px;
 }
