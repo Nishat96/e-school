@@ -114,10 +114,79 @@ h3{
 .card-text{
     color:#585859;
 }
+.card{
+    border-radius: 15px;
+    background-color: white;
+
+}
+
 .card-footer{
     border: 1px solid white;
+    background-color: #fff;
 }
 .card-footer img{
-    height: 60px;
-    width:  60px;
+    height: 40px;
+    width:  50px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.info p{
+    font-size: 15px;
+    position: relative;
+    top: 15px;
+    right: 12px;
+    color: #585859;
+}
+.fourth-section{
+    width: 60%;
+    position: relative;
+    left: 160px;
+    top: 35px;
+}
+
+.fourth-section img{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    bottom: 20px;
+    
+}
+.fourth-section p{
+    color: #000000;
+    text-align: justify;
+    position: relative;
+    left: 25px;
+}
+footer{
+    background-color: black;
+    height: 300px;
+}
+.white-highlight{
+    color: white;
+    font-weight: 700;
+}
+footer p{
+    color: #FFFFFF;
+    width: 40%;
+    position: relative;
+    bottom: 125px;
+}
+.footer-info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.course, .terms , useful-link{
+    margin-top: 25px;
+}
+small{
+    color: #CDCDCD;
+    position: relative;
+    top: 40px;
+    left: 450px;
 }
