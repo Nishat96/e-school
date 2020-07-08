@@ -1,7 +1,5 @@
 body{
-    font-family: 'Muli', sans-serif;
-font-family: 'Noto Sans', sans-serif;
-font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 .navbar-brand img{
     height: 50px;
@@ -114,15 +112,17 @@ h3{
 .card-text{
     color:#585859;
 }
-.card{
-    border-radius: 15px;
+.card-deck .card{
+    border-radius: 25px;
     background-color: white;
+    box-shadow: 3px 3px 5px #ececf0;
+    border: 1px solid white;
 
 }
 
-.card-footer{
-    border: 1px solid white;
-    background-color: #fff;
+.card .card-footer{
+    border: none;
+    background-color: #ffffff;
 }
 .card-footer img{
     height: 40px;
@@ -161,7 +161,7 @@ h3{
     left: 25px;
 }
 footer{
-    background-color: black;
+    background-color: #282531;
     height: 300px;
 }
 .white-highlight{
@@ -172,21 +172,56 @@ footer p{
     color: #FFFFFF;
     width: 40%;
     position: relative;
-    bottom: 125px;
+    bottom: 100px;
 }
 .footer-info{
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
-    margin-left: 35px;
-    margin-right: 35px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
-.course, .terms , useful-link{
+.course, .terms , .useful-link{
     margin-top: 25px;
+}
+.footer-info h6{
+    color: #dad6d6;
+    font-size: px;
 }
 small{
     color: #CDCDCD;
     position: relative;
     top: 40px;
     left: 450px;
+}
+.bonus-highlight{
+    color: #fc8c9e;
+    font-weight: 700;
+    font-size: 30px;
+}
+.bonus-highlight:hover{
+    font-size: 50px;
+    color: #db266b;
+}
+.about-mithila{
+    color: #fc8c9e;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+
+
+.box ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+.box li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background-color: #f1dde0;
+    height: 60px;
+    font-size: 17px;
 }
