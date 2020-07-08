@@ -254,7 +254,7 @@ small{
 }
 .bonus-card .card{
   border: none;
-  box-shadow: 5px 5px 5px #92e092;
+  box-shadow: 5px 5px 15px #9ee29e;
   border-radius: 10px;
 }
 .orange-hightlight{
