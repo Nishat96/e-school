@@ -1,7 +1,123 @@
+body{
+    font-family: 'Muli', sans-serif;
+font-family: 'Noto Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
 .navbar-brand img{
     height: 50px;
     width: 150px;
 }
 .buttons{
     border-radius: 20px;
+    padding: 5px 20px;
+    background-color: #21B573;
+    color: white;
+    border: none;
+}
+.container{
+    margin-bottom: 60px;
+
+}
+.container-header{
+    width: 1200px;
+    padding-right: 13px;
+    padding-left: 76px;
+    
+   
+}
+.navbar {
+    background-color: #258325!important; 
+}
+.second-area{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F0FFF0;
+}
+.half-width{
+    width: 40%
+}
+.half-width h4{
+    color: #FD511A;
+}
+.half-width p{
+    color: #6C6B6B;
+}
+.green-highlight{
+    color: #21B573; 
+}
+.half-width img {
+    width: 100%;
+
+}
+.third-area{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+   
+}
+.third-area-img{
+    width: 200px;
+    height: 200px;
+    background-color: #F0FFF0;
+    
+
+}
+.third-area-img img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 65px;
+}
+.third-area-white-img{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    box-shadow: 3px 3px 5px #afafb1;
+    border-radius: 5%;
+
+}
+.third-area-white-img img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    top: 40px;
+    left: 65px;
+
+    
+}
+article{
+    position: relative;
+    top: 120px;
+    right: 30px;
+   
+}
+article h4{
+    font-size: 19px;
+    color: #413960;
+}
+article p{
+    color: #585859;
+    font-size: 14px;
+    text-align: center;
+    
+}
+h3{
+    text-align: center;
+}
+.card img{
+    padding: 15px 12px 0px 12px;
+}
+.card-title {
+    color: #413960;
+}
+.card-text{
+    color:#585859;
+}
+.card-footer{
+    border: 1px solid white;
+}
+.card-footer img{
+    height: 60px;
+    width:  60px;
 }
