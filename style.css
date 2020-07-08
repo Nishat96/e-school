@@ -155,12 +155,16 @@ h3{
     color: #585859;
 }
 
-
+@media (min-width: 1200px) {
+    
 .fourth-section{
     width: 60%;
     position: relative;
     left: 160px;
     top: 35px;
+    display: grid;
+    
+}
 }
 
 .fourth-section img{
@@ -177,6 +181,7 @@ h3{
     left: 25px;
 }
 footer{
+    display: flex;
     background-color: #282531;
     height: 300px;
     flex-direction: column;
@@ -201,8 +206,10 @@ footer p{
     margin-right: 50px;
 }
 
+
 .course, .terms , .useful-link{
     margin-top: 25px;
+
 }
 .footer-info h6{
     color: #dad6d6;
@@ -244,4 +251,16 @@ small{
     background-color: #f1dde0;
     height: 60px;
     font-size: 17px;
+}
+.bonus-card .card{
+  border: none;
+  box-shadow: 5px 5px 5px #92e092;
+  border-radius: 10px;
+}
+.orange-hightlight{
+    color: #fc7649;
+    font-weight: 600;
+}
+.bonus-footer{
+    color: grey;
 }
