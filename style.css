@@ -1,17 +1,19 @@
-@media (max-width: 700px){
-body{
+@media (max-width: 700px) {
+ body{
     font-family: 'Poppins', sans-serif;
-}
+    margin: 0px;
+ } 
+
 }
 @media (min-width: 1200px) {
     body{
         font-family: 'Poppins', sans-serif;
+        margin: 0px;
     }
 
 }
-.bg-light{
-    background-color: #ffc107!important;
-}
+
+
 .navbar-brand img{
     height: 50px;
     width: 150px;
@@ -185,6 +187,7 @@ footer{
     background-color: #282531;
     height: 300px;
     flex-direction: column;
+    
 
 }
 .white-highlight{
